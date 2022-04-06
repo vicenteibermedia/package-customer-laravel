@@ -1,0 +1,27 @@
+{
+    "name": "danielgarcia/package-customer",
+    "description": "Package for customers",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Danielgarcia\\PackageCustomer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Garcia",
+            "email": "dgfja06@gmail.com"
+        }
+    ],
+
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Danielgarcia\\PackageCustomer\\CustomerProvider"
+        ]
+      }
+    },
+    "require": {}
+}
